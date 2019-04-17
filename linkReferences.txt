@@ -1,3 +1,5 @@
+TO DO LIST : https://trello.com/b/MNTZS0Lu/bloody-pistols-website
+
 Sites Used as References:
 
 1 - INTZ E-SPORTS: https://www.intz.com.br
@@ -21,3 +23,12 @@ IGNORE THAT LECTURER:
 1 - Video About Data Request on Google : https://www.youtube.com/watch?v=hLjht9uJWgw
 2 - How to merge branches git : https://www.atlassian.com/git/tutorials/using-branches/git-merge    
                                 https://www.youtube.com/watch?v=uR-9NGrpU-c
+
+DIFERENTIALS FOR BONUS POINTS:
+
+1 - Distinct design 
+2 - References 
+3 - SEO 
+4 - Webhosting 
+5 - Widgets 
+6 - Search Functionality
