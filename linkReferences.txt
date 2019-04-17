@@ -19,3 +19,5 @@ Base Codes and Tutorials:
 IGNORE THAT LECTURER:
 
 1 - Video About Data Request on Google : https://www.youtube.com/watch?v=hLjht9uJWgw
+2 - How to merge branches git : https://www.atlassian.com/git/tutorials/using-branches/git-merge    
+                                https://www.youtube.com/watch?v=uR-9NGrpU-c
