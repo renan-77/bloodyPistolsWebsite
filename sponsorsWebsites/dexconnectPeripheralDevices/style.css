@@ -1,0 +1,19 @@
+body, html{
+    display: block;
+    text-align: center;
+    background-image: url("img/background3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#riftLogo{
+    margin-top: 15%;
+    position: relative;
+}
+#description{
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
