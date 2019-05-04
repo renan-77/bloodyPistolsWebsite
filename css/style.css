@@ -100,6 +100,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     font-size: 15px;
+    padding: 0px 2% 0px 2%;
 }
 
 .item{
@@ -108,6 +109,29 @@ body {
     flex-shrink: 1;
     margin: 10px;
     text-align: justify;
+}
+
+.sectionHeader{
+    padding: 0px 2% 0px 2%;
+    font-family: 'BebasNeue';
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 2em;
+}
+
+.sectionHeader h1{
+    font-family: 'BebasNeue';
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 2em;
+    padding: 0;
+    margin: 1% 0px 0px 0px;
+}
+
+.sectionHeader hr{
+    margin: 0px;
 }
 
 /* Ipad Query */
@@ -186,6 +210,14 @@ body {
 /* Mobile Phones Query */
 
 @media screen and (max-width:400px) {
+    .sectionHeader hr{
+        margin: 0px 3% 0px 3%;
+    }
+
+    .sectionHeader h1{
+        margin-left: 3%;
+    }
+
     .home{
         background-repeat: no-repeat;
         background-image: url("../img/backgroundmobile.jpg");
@@ -442,11 +474,6 @@ body {
     padding: 0;
     background-color: rgba(177,0,0,0.8);
 }
-
-
-
-
-
 
 .myH2 {
 	text-align:center;
