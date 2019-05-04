@@ -163,6 +163,14 @@ body {
     .nav div.media_button {
         display: block;
     }
+    .flexContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
 }
 
 /* Mobile Phones Query */
@@ -172,6 +180,7 @@ body {
         background-repeat: no-repeat;
         background-image: url("../img/backgroundmobile.jpg");
         background-size: contain;
+        height: 667px;
     }
     .nav{
         height: 60px;
@@ -213,6 +222,13 @@ body {
     }
     .nav div.media_button {
         display: block;
+    }
+    .flexContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
     }
 }
 
