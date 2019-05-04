@@ -75,12 +75,11 @@ body {
 
 /* Home section */
 
-.home {
+#home {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/slide1.jpg");
-    background-position: center top;
-	background-size:cover;
+    background-image: url('../img/bg.png');
+    background-size: cover;
 }
 
 .navTrigger {
@@ -140,7 +139,7 @@ body {
     .container {
         margin: 0;
     }
-    .home{
+    #home{
         background-repeat: no-repeat;
         background-image: url("../img/backgroundipad.jpg");
         background-size: fill;
@@ -218,7 +217,7 @@ body {
         margin-left: 3%;
     }
 
-    .home{
+    #home{
         background-repeat: no-repeat;
         background-image: url("../img/backgroundmobile.jpg");
         background-size: cover;
