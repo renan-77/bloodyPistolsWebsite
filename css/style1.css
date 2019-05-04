@@ -238,3 +238,27 @@
         background-image: url(../img/mobileSlide.jpg);
     }
 }
+
+@media (max-width: 1024px) {
+    .cb-slideshow{
+        height: 1024px;
+    }
+    .cb-slideshow li:nth-child(1) span { 
+        background-image: url(../img/ipadSlide2.jpg) 
+    }
+    .cb-slideshow li:nth-child(2) span { 
+        background-image: url(../img/ipadSlide1.jpg);
+    }
+    .cb-slideshow li:nth-child(3) span { 
+        background-image: url(../img/ipadSlide3.jpg);
+    }
+    .cb-slideshow li:nth-child(4) span { 
+        background-image: url(../img/ipadSlide.jpg);
+    }
+    .cb-slideshow li:nth-child(5) span { 
+        background-image: url(../img/ipadSlide.jpg);
+    }
+    .cb-slideshow li:nth-child(6) span { 
+        background-image: url(../img/ipadSlide.jpg);
+    }
+}
