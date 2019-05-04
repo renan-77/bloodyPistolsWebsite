@@ -133,6 +133,34 @@ body {
     margin: 0px;
 }
 
+
+/* footer */
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 15px;
+    padding: 0px 2% 0px 2%;
+}
+
+.contact{
+    order: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
+    text-align: justify;
+}
+
+.copyright{
+    order: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
+    text-align: justify;
+}
+
 /* Ipad Query */
 
 @media (max-width: 1024px) {
