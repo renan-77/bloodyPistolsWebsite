@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 html,
 body {
     margin: 0;
@@ -9,6 +8,10 @@ body {
     font-size: 10px;
     background-color: #2d2d2d;
     color: #f1f1f1;
+}
+
+b{
+    color: #be0000;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -83,6 +86,17 @@ body {
 }
 
 .navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0%;
+    bottom: 0;
+}
+
+.navTrigger {
     display: none;
 }
 
@@ -110,6 +124,64 @@ body {
     text-align: justify;
 }
 
+.itemPicture{
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Button Style and Effects **/
+
+.button {
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(182, 6, 30) 50%, #2d2d2d 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover{
+    background-position: left bottom;
+    color: #f1f1f1;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Section Header, where has the title of the section and the HR **/
+
 .sectionHeader{
     padding: 0px 2% 0px 2%;
     font-family: 'BebasNeue';
@@ -117,6 +189,7 @@ body {
     font-weight: normal;
     font-style: normal; 
     font-size: 2em;
+    text-align: justify;
 }
 
 .sectionHeader h1{
@@ -133,8 +206,21 @@ body {
     margin: 0px;
 }
 
+/* Middle Content Between Home and Footer **/
 
-/* footer */
+.middleContent{
+    background-color: #570000;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+}
+
+.spacing{
+    height: 18%;
+}
+
+/* Footer Styles */
 
 .footerContainer{
     display: flex;
@@ -145,12 +231,17 @@ body {
     padding: 0px 2% 0px 2%;
 }
 
-.contact{
+.footerItem{
     order: 0;
     flex-grow: 1;
     flex-shrink: 1;
     margin: 10px;
     text-align: justify;
+}
+
+.footerIcon{
+margin-top: 1%;
+padding-left: 5px;
 }
 
 .copyright{
@@ -198,7 +289,6 @@ body {
         left: 0;
         bottom: 0;
         background-color: #16161696;
-        /*same background color of navbar*/
         background-position: center top;
     }
     .nav div.main_list ul li {
@@ -230,6 +320,29 @@ body {
     }
     .item p{
      margin: 4px 15px 0px 15px;
+    
+    }
+    .footerContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 350px;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .footerItem{
+        order: 0;
+        width: 350px;
+        margin: 10px;
+        text-align: justify;
+    }
+    
+    .item p{
+     margin: 4px 15px 0px 15px;
+    }
+
+    .middleContent{
+        height: 100%;
     }
     
 }
@@ -302,7 +415,32 @@ body {
     .item{
         margin: 15px 15px 0px 15px;
     }
+
+    .footerContainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 350px;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .footerItem{
+        order: 0;
+        width: 350px;
+        margin: 10px;
+        text-align: justify;
+    }
+    
+    .item p{
+     margin: 4px 15px 0px 15px;
+    }
+    
+    .middleContent{
+        height: 100%;
+    }
+    
 }
+
 
 
 /* Animation */
