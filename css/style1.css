@@ -1,3 +1,4 @@
+/* This Style Sheet is part of the slider got from the web and it uses a JS library called modernizr, many modifications were made in this page */
 .cb-slideshow,
 .cb-slideshow:after { 
     position: absolute;
@@ -50,6 +51,9 @@
     padding: 0;
     line-height: 200px; 
 }
+
+/* Set the background images */
+
 .cb-slideshow li:nth-child(1) span { 
     background-image: url(../img/slide1.jpg) 
 }
@@ -214,6 +218,9 @@
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }
+
+/* Set different background images for the slides in the Ipad Query */
+
 @media (max-width: 1024px) {
     .cb-slideshow{
         height: 1024px;
@@ -237,6 +244,8 @@
         background-image: url(../img/ipadSlide.jpg);
     }
 }
+
+/* Set different background images for the slides in the Mobile Phones Query */
 
 @media screen and (min-width:320px) and (max-width:420px) {
     .cb-slideshow{

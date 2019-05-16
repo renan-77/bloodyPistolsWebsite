@@ -76,7 +76,7 @@ b{
 }
 
 
-/* Home section */
+/* Standard Styles for the pages Section */
 
 #home {
     width: 100%;
@@ -135,6 +135,8 @@ b{
     font-style: normal; 
 }
 
+/* Styles for the forms */
+
 .formSubmit{
     width: 40vh;
     margin: 0 auto;
@@ -148,10 +150,15 @@ b{
     margin-top: 10px;
 }
 
+.hiddenInput{
+    display: none;
+}
+
 .formInput::placeholder{
     color: #f00;
 }
 
+/* -- */
 .navTrigger {
     cursor: pointer;
     width: 30px;
@@ -293,9 +300,7 @@ b{
     right: 0;
 }
 
-.hiddenInput{
-    display: none;
-}
+
 
 /* Section Header, where has the title of the section and the HR **/
 
