@@ -109,6 +109,32 @@ b{
     text-align: center;
 }
 
+.topContent{
+    width: 100%;
+    height: relative;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.formSubmit{
+    width: 40vh;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+.formInput{
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin-top: 10px;
+}
+
+.formInput::placeholder{
+    color: #f00;
+}
+
 .navTrigger {
     cursor: pointer;
     width: 30px;
@@ -202,6 +228,56 @@ b{
 .button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.submitButton{
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(182, 6, 30) 50%, #570000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.submitButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.submitButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submitButton:hover span {
+    padding-right: 25px;
+}
+
+.submitButton:hover{
+    background-position: left bottom;
+    color: #f1f1f1;
+}
+
+.submitButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.hiddenInput{
+    display: none;
 }
 
 /* Section Header, where has the title of the section and the HR **/
