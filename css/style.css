@@ -118,6 +118,23 @@ b{
    
 }
 
+.topContent p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.comingSoon{
+    font-size: 4em;
+    font-family: 'BebasNeue';
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal; 
+}
+
 .formSubmit{
     width: 40vh;
     margin: 0 auto;
